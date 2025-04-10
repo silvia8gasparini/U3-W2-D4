@@ -79,7 +79,7 @@ const CommentArea = ({ asin }) => {
   }
 
   return (
-    <div className="mt-3">
+    <div className="mt-3" data-testid="comment-area">
       {isLoading && <Loading />}
       {isError && <Error />}
       <CommentsList comments={comments} refresh={refreshComments} />

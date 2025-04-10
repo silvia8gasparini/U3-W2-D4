@@ -5,6 +5,7 @@ const SingleBook = ({ book, isSelected, onSelect }) => {
 
   return (
     <Card
+      data-testid="single-book"
       onClick={onSelect}
       style={{
         border: isSelected ? "3px solid red" : "1px solid black",

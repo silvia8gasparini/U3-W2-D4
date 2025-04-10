@@ -11,7 +11,7 @@ const App = () => {
     <>
       <CustomNavbar />
       <Welcome />
-      <BookList books={historyBooks.slice(0, 21)} />
+      <BookList books={historyBooks.slice(0, 50)} />
       <Footer />
     </>
   );
